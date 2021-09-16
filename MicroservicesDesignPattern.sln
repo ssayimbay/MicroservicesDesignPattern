@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SagaChreographyPattern", "SagaChreographyPattern", "{CAC256B1-23A6-46C8-8A8A-55B67C918B0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaChreography.Order.API", "SagaChreographyPattern\SagaChreography.Order.API\SagaChreography.Order.API.csproj", "{00FCE7F3-D267-477C-A319-FF3F315876DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaChreography.Shared", "SagaChreographyPattern\SagaChreography.Shared\SagaChreography.Shared.csproj", "{E89EAD67-56A6-404D-A94D-F57D77A0867E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaChreography.Stock.API", "SagaChreographyPattern\SagaChreography.Stock.API\SagaChreography.Stock.API.csproj", "{55B5F244-54C7-4FC1-A713-DB3F7D1387BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SagaChreography.Payment.API", "SagaChreographyPattern\SagaChreography.Payment.API\SagaChreography.Payment.API.csproj", "{EEAD9230-0BFE-43E2-80E6-7E9018787D4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00FCE7F3-D267-477C-A319-FF3F315876DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00FCE7F3-D267-477C-A319-FF3F315876DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00FCE7F3-D267-477C-A319-FF3F315876DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00FCE7F3-D267-477C-A319-FF3F315876DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E89EAD67-56A6-404D-A94D-F57D77A0867E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E89EAD67-56A6-404D-A94D-F57D77A0867E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E89EAD67-56A6-404D-A94D-F57D77A0867E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E89EAD67-56A6-404D-A94D-F57D77A0867E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55B5F244-54C7-4FC1-A713-DB3F7D1387BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55B5F244-54C7-4FC1-A713-DB3F7D1387BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55B5F244-54C7-4FC1-A713-DB3F7D1387BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55B5F244-54C7-4FC1-A713-DB3F7D1387BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEAD9230-0BFE-43E2-80E6-7E9018787D4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEAD9230-0BFE-43E2-80E6-7E9018787D4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEAD9230-0BFE-43E2-80E6-7E9018787D4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEAD9230-0BFE-43E2-80E6-7E9018787D4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{00FCE7F3-D267-477C-A319-FF3F315876DD} = {CAC256B1-23A6-46C8-8A8A-55B67C918B0C}
+		{E89EAD67-56A6-404D-A94D-F57D77A0867E} = {CAC256B1-23A6-46C8-8A8A-55B67C918B0C}
+		{55B5F244-54C7-4FC1-A713-DB3F7D1387BA} = {CAC256B1-23A6-46C8-8A8A-55B67C918B0C}
+		{EEAD9230-0BFE-43E2-80E6-7E9018787D4A} = {CAC256B1-23A6-46C8-8A8A-55B67C918B0C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C2DEBDD-5CFC-41E1-9AAE-83C5BBE826A6}
+	EndGlobalSection
+EndGlobal
